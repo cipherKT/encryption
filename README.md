@@ -26,9 +26,9 @@ chmod +x encrypt_decrypt.sh   # or whatever you named the script
 ./encrypt_decrypt.sh
 ```
 Then choose an option:
-Encrypt text – enter plaintext + passphrase
-Decrypt text – load from file or paste ciphertext + salt + passphrase
-Exit
+1. Encrypt text – enter plaintext + passphrase
+2. Decrypt text – load from file or paste ciphertext + salt + passphrase
+3. Exit
 Encrypted files are stored in the encrypted_files/ directory in this format:
 ```
 ===ENCRYPTED_CONTENT===
