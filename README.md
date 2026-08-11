@@ -29,7 +29,10 @@ Then choose an option:
 1. Encrypt text – enter plaintext + passphrase
 2. Decrypt text – load from file or paste ciphertext + salt + passphrase
 3. Exit
+
+<br>
 Encrypted files are stored in the encrypted_files/ directory in this format:
+
 ```
 ===ENCRYPTED_CONTENT===
 <base64 ciphertext>
